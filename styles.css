@@ -1,5 +1,22 @@
 * {
-    
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 26.6px;
+}
+
+h2,
+p {
+    font-size: 18.4px;
 }
 
 body {
@@ -10,12 +27,37 @@ body {
     justify-content: center;
 }
 
+/* width padding: 60px */
+/* height padding: 70px */
+
+/* 1020 x 1320 */
+
 .main-page {
-    margin: 15px;
-    padding: 70px 60px;
+    margin-top: 75px;
+    /* padding: 70px 60px; */
+    border: 0px;
+    /* width: 900px;
+    height: 1180px; */
     width: 1020px;
     height: 1320px;
+    padding: 70px 60px;
+    padding-top: 64px;
     background-color: white;
-    /* border-radius: 4px; */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.education-details{
+    display: flex;
 }
