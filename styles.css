@@ -8,10 +8,12 @@ h2,
 h3,
 p {
     margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
     font-size: 26.6px;
+    font-weight: bold;
 }
 
 h2,
@@ -26,11 +28,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-/* width padding: 60px */
-/* height padding: 70px */
-
-/* 1020 x 1320 */
 
 .main-page {
     margin-top: 75px;
