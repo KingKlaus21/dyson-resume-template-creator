@@ -16,7 +16,23 @@ h1 {
     font-weight: bold;
 }
 
-h2,
+h2 {
+    margin: 20px auto;
+    font-size: 18.4px;
+}
+
+.section-title-upper {
+    font-size: 23.4px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.institution-name-upper {
+    font-size: 18.4px;
+}
+
 p {
     font-size: 18.4px;
 }
