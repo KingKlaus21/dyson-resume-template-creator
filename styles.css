@@ -71,16 +71,26 @@ body {
     font-style: italic;
 }
 
+/* @media print {
+    #header,
+    #footer,
+    #nav {
+        display: none !important;
+    }
+} */
+
 .main-page {
-    rotate: 90deg;
+    /* rotate: 90deg; */
     /* Uncomment the rotate function, zoom screen out to 80%, and screenshot */
     display: flex;
     flex-direction: column;
     margin-top: 75px;
     margin-bottom: 30px;
     border: 0px;
-    width: 1020px;
-    height: 1320px;
+    /* width: 1020px;
+    height: 1320px; */
+    width: 8.5in;
+    height: 11in;
     padding: 70px 60px;
     padding-top: 64px;
     background-color: white;
