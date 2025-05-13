@@ -26,7 +26,8 @@ h1 {
 }
 
 h2 {
-    margin: 16px auto;
+    /* margin: 16px auto; */
+    margin: 8px auto;
     /* font-size: 18.4px; */
     font-size: 13pt;
 }
@@ -47,6 +48,10 @@ h3 {
     font-size: 13pt;
 }
 
+.institution-name-main {
+    font-size: 10pt;
+}
+
 p {
     /* font-size: 18.4px; */
     font-size: 11pt;
@@ -63,7 +68,8 @@ li {
 }
 
 ::marker {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 13pt;
 }
 
 body {
@@ -92,7 +98,7 @@ body {
     height: 11in;
     /* padding: 70px 60px;
     padding-top: 64px; */
-    padding: 0.5in 0.5in;
+    padding: 0.45in 0.45in;
     background-color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -112,6 +118,7 @@ body {
 .right-school-details {
     direction: rtl;
     text-align: right;
+    padding-top: 5px;
 }
 
 .experience-details {
@@ -125,7 +132,8 @@ body {
 }
 
 .detail-block {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin-bottom: 8px;
 }
 
 .version-link {
