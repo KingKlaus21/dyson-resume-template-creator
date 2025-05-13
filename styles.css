@@ -15,33 +15,41 @@ li {
 }
 
 h1 {
-    font-size: 26.6px;
+    /* font-size: 26.6px; */
+    font-size: 18pt;
     font-weight: bold;
 }
 
 .skills-title-upper {
-    font-size: 23.4px;
+    /* font-size: 23.4px; */
+    font-size: 15pt;
 }
 
 h2 {
     margin: 16px auto;
-    font-size: 18.4px;
+    /* font-size: 18.4px; */
+    font-size: 13pt;
 }
 
 .section-title-upper {
-    font-size: 23.4px;
+    /* font-size: 23.4px; */
+    font-size: 15pt
+    /* capitalize first letter of word for all sections excluding skills title */
 }
 
 h3 {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 11pt;
 }
 
 .institution-name-upper {
-    font-size: 18.4px;
+    /* font-size: 18.4px; */
+    font-size: 13pt;
 }
 
 p {
-    font-size: 18.4px;
+    /* font-size: 18.4px; */
+    font-size: 11pt;
 }
 
 ul {
@@ -50,7 +58,8 @@ ul {
 }
 
 li {
-    font-size: 18.4px;
+    /* font-size: 18.4px; */
+    font-size: 11pt;
 }
 
 ::marker {
@@ -71,14 +80,6 @@ body {
     font-style: italic;
 }
 
-/* @media print {
-    #header,
-    #footer,
-    #nav {
-        display: none !important;
-    }
-} */
-
 .main-page {
     /* rotate: 90deg; */
     /* Uncomment the rotate function, zoom screen out to 80%, and screenshot */
@@ -87,12 +88,11 @@ body {
     margin-top: 75px;
     margin-bottom: 30px;
     border: 0px;
-    /* width: 1020px;
-    height: 1320px; */
     width: 8.5in;
     height: 11in;
-    padding: 70px 60px;
-    padding-top: 64px;
+    /* padding: 70px 60px;
+    padding-top: 64px; */
+    padding: 0.5in 0.5in;
     background-color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -130,4 +130,13 @@ body {
 
 .version-link {
     margin-bottom: 30px;
+}
+
+@media print {
+    #header,
+    #footer,
+    #nav,
+    .version-link {
+        display: none !important;
+    }
 }
