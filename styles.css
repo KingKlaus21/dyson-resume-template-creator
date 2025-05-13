@@ -87,8 +87,6 @@ body {
 }
 
 .main-page {
-    /* rotate: 90deg; */
-    /* Uncomment the rotate function, zoom screen out to 80%, and screenshot */
     display: flex;
     flex-direction: column;
     margin-top: 75px;
