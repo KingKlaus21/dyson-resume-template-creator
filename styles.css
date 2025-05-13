@@ -147,4 +147,9 @@ body {
     .version-link {
         display: none !important;
     }
+
+    .main-page {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
